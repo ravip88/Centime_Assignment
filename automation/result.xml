@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="1" skipped="0" tests="2" time="3.662"
+               timestamp="2021-05-04T00:31:05.849850" hostname="hp">
+        <testcase classname="test_final" name="test_1" time="1.328"/>
+        <testcase classname="test_final" name="test_2" time="1.309">
+            <failure message="assert 200 == 400&#10; +  where 200 = &lt;Response [200]&gt;.status_code">def test_2():
+                resp = requests.get("https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=IBM&amp;apikey=6ISQW3Z84MLEBQI5")
+                &gt; assert (resp.status_code == 400)
+                E assert 200 == 400
+                E + where 200 = &lt;Response [200]&gt;.status_code
+
+                test_final.py:13: AssertionError
+            </failure>
+        </testcase>
+    </testsuite>
+</testsuites>
