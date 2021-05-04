@@ -2,7 +2,7 @@
 
 Clone this repository: git clone -b master https://github.com/ravip88/Centime_Assignment.git
 
-Open this project using and choose install packages using pipfile.lock
+Open this project using PyCharm IDE and choose install packages using pipfile.lock
 
 Test Cases: Test_Cases.xlsx
 
